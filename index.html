@@ -5,43 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Website</title>
-  <style>
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-
-    ul li {
-      margin-left: 20px;
-    }
-
-    ul li a {
-      text-decoration: none;
-      color: #333;
-    }
-
-    section {
-      padding: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <nav>
-      <img src="images/Logo.png" alt="company Logo" style="width: 100px; border-radius: 50px;">
+      <img src="images/Logo.png" alt="company Logo" style="width: 60px; border-radius: 50px;">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/about.html">About Me</a></li>
+        <li><a href="./pages/contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
@@ -61,25 +36,14 @@
           <td>
             <h1>Juliet Ditshego</h1>
             <p>Welcome to my Dk Solutions! I specialize in creating innovative web solutions and digital products
-              designed to help
-              businesses grow and thrive online. Here, you'll find a showcase of my work, including user-friendly
-              websites and
-              responsive digital solutions that prioritize clean design and seamless functionality. Explore my portfolio
-              to learn more
-              about my skills and how I can help bring your web ideas to life.
-            </p>
-            <p>My work focuses on blending creativity with functionality to create web solutions that meet the unique
-              needs of each
-              client. With a strong understanding of user experience and modern design principles, I build websites and
-              digital
-              products that are not only visually appealing but also intuitive and easy to navigate. From the initial
-              concept to the
-              final launch, I work closely with clients to ensure every project is executed with precision and attention
-              to detail. I
-              am dedicated to delivering high-quality web solutions that help businesses establish a strong online
-              presence and
-              connect with their audience effectively.
-            </p>
+              designed to help businesses grow and thrive online. Here, you'll find a showcase of my work, including
+              user-friendly websites and responsive digital solutions that prioritize clean design and seamless
+              functionality. Explore my portfolio to learn more about my skills and how I can help bring your web ideas
+              to life.</p>
+            <p>With a strong focus on detail and a passion for design, I strive to provide solutions that not only meet
+              but exceed client expectations. From the first consultation to the final launch, I ensure every project is
+              executed with care and precision. I believe that a great user experience is the key to building lasting
+              relationships between businesses and their customers, and my work reflects that philosophy.</p>
           </td>
           <td>
             <img src="images/1735472220089.jpg" alt="my image" style="width: 300px; border-radius: 150px;">
@@ -87,67 +51,34 @@
         </tr>
       </table>
     </section>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hello, I'm Juliet Ditshego, a passionate web developer with a focus on creating responsive, user-friendly, and
-        visually appealing websites. With over [insert years of experience] years of experience in the field, I have
-        worked
-        with clients from various industries, providing them with digital solutions that enhance their online presence.
-      </p>
-      <p>I specialize in web development using [insert technologies you work with] and have a keen interest in front-end
-        design. I strive to stay updated with the latest trends and tools in web development to ensure that every
-        project I
-        undertake is executed with the latest technologies and industry best practices. I'm committed to delivering
-        quality
-        results that meet both functional and aesthetic needs, creating websites that users love to visit and interact
-        with.
-      </p>
-      <p>When I'm not working on web development projects, you can find me exploring new technologies, attending
-        industry
-        events, and collaborating with fellow developers to create innovative digital solutions. I believe in the power
-        of
-        collaboration and the importance of continuous learning in this fast-evolving field.</p>
-    </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>I'm always open to new opportunities and collaborations. Feel free to reach out to me through any of the methods
-          below:</p>
-        <h3>Email</h3>
-        <p>You can email me at <a href="mailto:dikeledijuliet17@gmail.com">juliet@example.com</a>.</p>
-        <h3>Phone</h3>
-        <p>You can reach me at <strong>+27726753621</strong>.</p>
-        <h3>Address</h3>
-        <p>I am based in Pretoria,Gauteng. If you'd like to meet in person, feel free to get in touch to arrange a time and
-          place.</p>
-        <h3>Social Media</h3>
-        <p>Connect with me on my social platforms:</p>
-        <ul>
-          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-          <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-          <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-        </ul>
-      </section>
   </main>
+<footer style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 20px;">
+  <div style="display: flex; flex-direction: column; gap: 15px;">
+    <h2>Connect with Me</h2>
+    <p style="margin: 0; font-size: 18px;">
+      
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fab fa-facebook-f" style="font-size: 24px; margin-right: 10px;"></i>
+      </a>
+    
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter" style="font-size: 24px; margin-right: 10px;"></i>
+      </a>
+  
+      <a href="https://www.linkedin.com" target="_blank">
+        <i class="fab fa-linkedin-in" style="font-size: 24px;"></i>
+      </a>
+    </p>
+    <p style="margin: 0; font-size: 18px;">
+      <a href="pages/about.html">About Me</a> |
+      <a href="./pages/">Services</a> |
+      <a href="pages/contact.html">Contact Us</a>
+    </p>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen=""
+    loading="lazy"></iframe>
+</footer>
 
-
-
-    <footer style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-      <div style="display: flex; gap: 15px;">
-        <p style="margin: 0;">
-          <a href="https://www.facebook.com" target="_blank">Facebook</a> |
-          <a href="https://www.twitter.com" target="_blank">Twitter</a> |
-          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-        </p>
-        <p style="margin: 0;">
-          <a href="#about">About Me</a> |
-          <a href="#services">Services</a> |
-          <a href="#contact">Contact Us</a>
-        </p>
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;"
-        allowfullscreen="" loading="lazy"></iframe>
-    </footer>
 
 </body>
 
